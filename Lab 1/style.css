@@ -1,0 +1,57 @@
+.square1 {
+
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+
+.square2 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: dashed;
+  border-color: red;
+  margin: 0 auto;
+}
+
+span {
+  color: purple;
+  font-size: 50px;
+}
+
+.square4 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.box {
+display: flex;
+justify-content: space-around;
+
+}
+
+.flag{
+  position: absolute;
+    background-color: red;
+    height: 45vh;
+}
+
+.left {
+  left: 0vw;
+  width: 30vw;
+}
+
+.top {
+  top: 0%;
+}
+
+.bottom {
+  top:55vh;
+}
+
+.right {
+  left: 40vw;
+  width: 60vw;
+}
