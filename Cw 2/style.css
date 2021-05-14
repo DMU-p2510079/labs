@@ -1,3 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+.section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin:0 0 10px;
+    color: #000000;
+    position: relative;
+  }
+
+.section-title h1::before{
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 2px;
+    right:30%;
+    background-color: #febd01;
+    bottom: 0px;
+  }
+
+.text-center{
+ text-align: center;
