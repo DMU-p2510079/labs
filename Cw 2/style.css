@@ -555,3 +555,104 @@ justify-content: space-between;
   background-color: #000000;
   color: #ffffff;
 }
+/*Footer*/
+
+footer{
+  padding: 70px 15px;
+  background-color:#0c0c17;
+}
+
+footer .logo{
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align:center;
+  width: 50%;
+  height: 50%;
+}
+
+footer .social{
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align:center;
+  color:#eeeeee;
+  padding-top: 15px;
+}
+
+footer .social a{
+  color:#999999;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 12px;
+  transition: all .5s ease;
+  text-decoration:none;
+}
+
+footer .social a:hover{
+  color:#ffffff;
+}
+
+/*copyright*/
+.copyright{
+  background-color: #0c0c17;
+    border-top: 1px solid #1d1d27;
+    padding:15px;
+}
+
+.copyright p{
+  color: #838383;
+  margin:0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+@media(max-width: 991px){
+  .home .home-content .block h1{
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 767px){
+  header{
+    padding: 15px;
+    position: fixed;
+    background-color: #ffffff;
+    border: none;
+  }
+
+header .brand-name a{
+  color: #000000;
+}
+.ham-burger .fa{
+ display: inline-block;
+}
+
+.navbar{
+position: absolute;
+background-color: #ffffff;
+width: 100%;
+left: 0px;
+top:60px;
+padding:15px;
+border-top: 1px solid #eeeeee;
+display: none;
+}
+
+.navbar .show{
+  display: block;
+}
+
+header .navbar ul li {
+  display: block;
+  margin-left:0;
+}
+
+header .navbar ul li a{
+  line-height:42px;
+  color: #000000;
+}
+
+header .navbar ul li a::before{
+  background-color: #febd01;
+}
+}
