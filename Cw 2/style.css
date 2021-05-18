@@ -134,7 +134,7 @@ body {
  }
 
  header.fixed .navbar ul li a::before{
-   background-color: #febd01;
+   background-color:#696969;
  }
  header .navbar ul li a:hover::before{
    width: 100%;
