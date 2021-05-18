@@ -243,7 +243,7 @@ background-color: #ffffff;
   position: absolute;
   height: 2px;
   right:30%;
-  background-color: #febd01;
+  background-color:	#696969;
   bottom: 0px;
 }
 
@@ -267,7 +267,7 @@ background-color: #ffffff;
 }
 
 .about-me .about-content .img img{
-  width: 100%;
+  width:70%;
   display: block;
   a
 
@@ -683,6 +683,10 @@ footer .social a:hover{
   color:#ffffff;
 }
 
+footer .logo img {
+  width: 20%;
+
+}
 /*copyright*/
 .copyright{
   background-color: #0c0c17;
