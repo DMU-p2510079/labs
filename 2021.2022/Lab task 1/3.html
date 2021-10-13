@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <style>
+     .thumbnails img {
+       width: 100px;
+     }
+
+     #mainImg {
+       width: 310px;
+     }
+   </style>
+   <div class="thumbnails">
+       <img src="images/cockapoo1.jpg" />
+       <img src="images/cockapoo2.jpg" />
+       <img src="images/cockapoo3.jpg" />
+     </div>
+
+    <img id="mainImg" src="" />
+    <script>
+     showCockapoo = evt => {
+       document
+         .getElementById("mainImg")
+         .setAttribute("src", evt.target.getAttribute("src"));
+     };
+     document.querySelectorAll(".thumbnails img").forEach(el => {
+       el.addEventListener("click", showCockapoo);
+     });
+   </script>
+  </head>
+  <body>
+
+  </body>
+</html>
