@@ -2,9 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width" />
     <title></title>
   </head>
   <body>
+    <body>
+       <button id="alert">Click Me!</button>
 
+       <script>
+         showAlert = () => {
+           alert("I am Bruno");
+         };
+         document.getElementById("alert").addEventListener("click", showAlert);
+       </script>
   </body>
 </html>
